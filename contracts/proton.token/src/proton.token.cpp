@@ -3,7 +3,7 @@
 
 namespace eosio {
 
-  static constexpr name BLOCKLIST_CONTRACT = "blocklist"_n;
+static constexpr name BLOCKLIST_CONTRACT = "blocklist"_n;
   
 void token::create( const name&   issuer,
                     const asset&  maximum_supply )
